@@ -1,0 +1,2 @@
+﻿  스.c
+c:\users\fhwang\documents\visual studio 2015\projects\test_inject\wpdpack\include\pcap\pcap.h(47): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/time.h': No such file or directory

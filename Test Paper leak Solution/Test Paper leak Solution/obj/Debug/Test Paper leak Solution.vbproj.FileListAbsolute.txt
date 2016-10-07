@@ -1,0 +1,17 @@
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\bin\Debug\Test Paper leak Solution.exe.config
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\bin\Debug\Test Paper leak Solution.exe
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\bin\Debug\Test Paper leak Solution.pdb
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\bin\Debug\Test Paper leak Solution.xml
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test_Paper_leak_Solution.Form1.resources
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test_Paper_leak_Solution.Resources.resources
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test Paper leak Solution.vbproj.GenerateResource.Cache
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test Paper leak Solution.exe
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test Paper leak Solution.xml
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test Paper leak Solution.pdb
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test_Paper_leak_Solution.Form2.resources
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test_Paper_leak_Solution.Form3.resources
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test_Paper_leak_Solution.Form4.resources
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\bin\Debug\Gma.System.MouseKeyHook.dll
+c:\users\fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test Paper leak Solution.vbprojResolveAssemblyReference.cache
+C:\Users\Fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test_Paper_leak_Solution.Form5.resources
+C:\Users\Fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Debug\Test_Paper_leak_Solution.Form6.resources

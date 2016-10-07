@@ -1,0 +1,5 @@
+c:\users\fhwang\documents\visual studio 2015\Projects\test_api\test_api\bin\Debug\test_api.exe.config
+c:\users\fhwang\documents\visual studio 2015\Projects\test_api\test_api\obj\Debug\test_api.vbprojResolveAssemblyReference.cache
+c:\users\fhwang\documents\visual studio 2015\Projects\test_api\test_api\obj\Debug\test_api.Resources.resources
+c:\users\fhwang\documents\visual studio 2015\Projects\test_api\test_api\obj\Debug\test_api.vbproj.GenerateResource.Cache
+c:\users\fhwang\documents\visual studio 2015\Projects\test_api\test_api\obj\Debug\test_api.xml

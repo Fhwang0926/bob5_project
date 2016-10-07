@@ -1,0 +1,11 @@
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\bin\Debug\get_cput_id.exe.config
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\bin\Debug\get_cput_id.exe
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\bin\Debug\get_cput_id.pdb
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\bin\Debug\get_cput_id.xml
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\obj\Debug\get_cput_id.vbprojResolveAssemblyReference.cache
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\obj\Debug\get_cput_id.Form1.resources
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\obj\Debug\get_cput_id.Resources.resources
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\obj\Debug\get_cput_id.vbproj.GenerateResource.Cache
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\obj\Debug\get_cput_id.exe
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\obj\Debug\get_cput_id.xml
+c:\users\fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\obj\Debug\get_cput_id.pdb

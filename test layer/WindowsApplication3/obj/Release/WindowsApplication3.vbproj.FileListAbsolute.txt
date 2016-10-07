@@ -1,0 +1,11 @@
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Release\WindowsApplication3.exe.config
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Release\WindowsApplication3.exe
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Release\WindowsApplication3.pdb
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Release\WindowsApplication3.xml
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\WindowsApplication3.Form1.resources
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\WindowsApplication3.Resources.resources
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\WindowsApplication3.vbproj.GenerateResource.Cache
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\WindowsApplication3.exe
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\WindowsApplication3.xml
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\WindowsApplication3.pdb
+C:\Users\Fhwang\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\WindowsApplication3.vbprojResolveAssemblyReference.cache
