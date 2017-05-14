@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D83D3949-8306-47C4-88BF-915A43360B0D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ECPS.My.MyApplication</StartupObject>
+    <RootNamespace>ECPS</RootNamespace>
+    <AssemblyName>ECPS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ECPS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ECPS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\..\..\Downloads\DocxToTextDemo\DocxToTextDemo\bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HWPCONTROLLib">
+      <HintPath>obj\Release\Interop.HWPCONTROLLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SeedCs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=27a1ccf3a5373dde, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\SeedCs.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="config.Designer.vb">
+      <DependentUpon>config.vb</DependentUpon>
+    </Compile>
+    <Compile Include="config.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fix.Designer.vb">
+      <DependentUpon>fix.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fix.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="get_cpu_id.vb" />
+    <Compile Include="loding.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loding.Designer.vb">
+      <DependentUpon>loding.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="notice.Designer.vb">
+      <DependentUpon>notice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="notice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="one_chk.Designer.vb">
+      <DependentUpon>one_chk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="one_chk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="search.Designer.vb">
+      <DependentUpon>search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="water_mark.Designer.vb">
+      <DependentUpon>water_mark.vb</DependentUpon>
+    </Compile>
+    <Compile Include="water_mark.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="config.resx">
+      <DependentUpon>config.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fix.resx">
+      <DependentUpon>fix.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loding.resx">
+      <DependentUpon>loding.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notice.resx">
+      <DependentUpon>notice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="one_chk.resx">
+      <DependentUpon>one_chk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search.resx">
+      <DependentUpon>search.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="water_mark.resx">
+      <DependentUpon>water_mark.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_yes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fix_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fix_btn_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart_btn_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_btn_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_btn_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxHWPCONTROLLib">
+      <Guid>{86E6E883-3879-4514-A25B-81023981DA19}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="HWPCONTROLLib">
+      <Guid>{86E6E883-3879-4514-A25B-81023981DA19}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\off_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\off_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\on_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\on_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\security_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quick_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

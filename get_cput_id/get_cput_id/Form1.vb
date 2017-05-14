@@ -10,10 +10,10 @@ Public Class Form1
         cpu_id = GetWmiDeviceSingleValue("Win32_Processor", "ProcessorID")
 
         'MsgBox("CPU_ID : " & cpu_id + vbCrLf + "BIOS_ID : " & bios_id)
-
+        Console.WriteLine(cpu_id)
         Microsoft.Win32.Registry.LocalMachine.CreateSubKey("Software").CreateSubKey("tpls").SetValue("CPU_ID", cpu_id)
         Microsoft.Win32.Registry.LocalMachine.CreateSubKey("Software").CreateSubKey("tpls").SetValue("BIOS_ID", bios_id)
-        MsgBox("인증되었습니다" & vbCrLf & "Test Paper Leak solution 을 사용할 수 있습니다", vbQuestion + vbYes, "알림")
+        MsgBox("인증되었습니다" & vbCrLf & "Test Paper Protect solution 을 사용할 수 있습니다", vbQuestion + vbYes, "알림")
     End Sub
     ' Dim CPU As String
     ' CPU = GetWmiDeviceSingleValue("Win32_Processor", "ProcessorID")

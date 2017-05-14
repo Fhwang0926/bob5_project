@@ -8,3 +8,4 @@ c:\Users\Fhwang\Documents\Visual Studio 2015\Projects\get_cput_id\get_cput_id\bi
 c:\Users\Fhwang\Documents\Visual Studio 2015\Projects\get_cput_id\get_cput_id\bin\Release\get_cput_id.xml
 c:\Users\Fhwang\Documents\Visual Studio 2015\Projects\get_cput_id\get_cput_id\obj\Release\get_cput_id.exe
 c:\Users\Fhwang\Documents\Visual Studio 2015\Projects\get_cput_id\get_cput_id\obj\Release\get_cput_id.pdb
+C:\Users\Fhwang\documents\visual studio 2015\Projects\get_cput_id\get_cput_id\obj\Release\get_cput_id.vbprojResolveAssemblyReference.cache

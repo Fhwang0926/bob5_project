@@ -81,6 +81,8 @@ Public Class Form6
         intLLKey = SetWindowsHookEx(WH_KEYBOARD_LL, AddressOf LowLevelKeyboardProc, IntPtr.Zero, 0)
     End Sub
     '키보드 후킹 함수
+
+    Dim asas As Integer = 0
     Private Function LowLevelKeyboardProc(ByVal nCode As Integer, ByVal wParam As Integer, ByRef lParam As KBDLLHOOKSTRUCT) As Integer
         Dim blnEat As Boolean = False
 
@@ -92,13 +94,15 @@ Public Class Form6
 
         End Select
         Try
+
             If blnEat = True Then '키 탐지
                 'Console.WriteLine(blnEat)
                 SetActiveWindow(tmp) '윈도우 활성창으로 전환
                 SendKeys.Send("{Esc}") '다른이름으로 저장 창 취소 키 누름
                 Return UnhookWindowsHookEx(intLLKey)
             Else
-                Return CallNextHookEx(IntPtr.Zero, nCode, wParam, lParam)
+                asas = CallNextHookEx(IntPtr.Zero, nCode, wParam, lParam)
+                Return asas
             End If
         Catch
             Return 0
@@ -115,6 +119,8 @@ Public Class Form6
        
     End Sub
 
+    Private Sub notice_Click(sender As Object, e As EventArgs) Handles notice.Click
 
+    End Sub
 End Class
 

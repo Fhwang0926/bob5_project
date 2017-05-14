@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "read_word_str", "read_word_str\read_word_str.vbproj", "{F4BB597F-D0C5-4F9C-94AD-532AAD4F341B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4BB597F-D0C5-4F9C-94AD-532AAD4F341B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BB597F-D0C5-4F9C-94AD-532AAD4F341B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BB597F-D0C5-4F9C-94AD-532AAD4F341B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BB597F-D0C5-4F9C-94AD-532AAD4F341B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

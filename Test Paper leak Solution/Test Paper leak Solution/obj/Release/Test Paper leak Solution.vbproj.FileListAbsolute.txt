@@ -15,3 +15,4 @@ C:\Users\Fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\T
 C:\Users\Fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Release\Test Paper leak Solution.exe
 C:\Users\Fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Release\Test Paper leak Solution.xml
 C:\Users\Fhwang\documents\visual studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Release\Test Paper leak Solution.pdb
+C:\Users\Fhwang\Documents\Visual Studio 2015\Projects\Test Paper leak Solution\Test Paper leak Solution\obj\Release\Test Paper leak Solution.g.resources

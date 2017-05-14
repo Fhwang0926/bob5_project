@@ -1,1 +1,11 @@
 c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\bin\Debug\test file control.exe.config
+c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\bin\Debug\test file control.exe
+c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\bin\Debug\test file control.pdb
+c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\bin\Debug\test file control.xml
+c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\obj\Debug\test file control.vbprojResolveAssemblyReference.cache
+c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\obj\Debug\test_file_control.Form1.resources
+c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\obj\Debug\test_file_control.Resources.resources
+c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\obj\Debug\test file control.vbproj.GenerateResource.Cache
+c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\obj\Debug\test file control.exe
+c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\obj\Debug\test file control.xml
+c:\users\fhwang\documents\visual studio 2015\Projects\test file control\test file control\obj\Debug\test file control.pdb
